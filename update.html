@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>webpage-2</title>
+        <style>
+.sd,h2{
+text-align: center; color: green; font-weight: bold; background-color: wheat; margin: 30px; padding: 25px;
+font-size: 30px; border: 2px solid green; border-style:groove;
+
+}
+        </style>
+    </head>
+    <body style="background-color: violet;">
+        <h2>Welcome Webpage-3</h2>
+        <form action="update.php" method="get" class="sd">
+            <p>
+                <label for="columnname">Column Name: </label>
+                <select name="column" id="columnname">
+                    <option value="mov_id">mov_id</option>
+                    <option value="MOV_NAME">MOV_NAME</option>
+                    <option value="REALESE_YEAR">REALESE_YEAR</option>
+                    <option value="PROFIT">PROFIT</option>
+                    <option value="LOSS">LOSS</option>
+                </select>
+            </p>
+    
+            <p>
+                <label for="updatevalue">Value: </label>
+                <input type="text" name="new" id="updatevalue" placeholder="Enter the new Data."required>
+            </p>
+    
+            <p>
+                <p class="note">Enter the Movie name where you want to update the value.</p>
+                <label for="movno">Movie Name </label>
+                <input type="text" name="mov" id="movno" placeholder="Enter the Movie name." required>
+            </p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        
+        </form>
+
+
+
+
+
+
+    </body>
+</html>
